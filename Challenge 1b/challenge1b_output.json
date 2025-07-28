@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "input_documents": [
+      "sample1_company_analysis.pdf",
+      "sample2_student_guide.pdf"
+    ],
+    "persona": "Investment Analyst",
+    "job_to_be_done": "Analyze revenue trends, R&D investments, and market positioning strategies",
+    "processing_timestamp": "2025-07-26T19:13:46.986997"
+  },
+  "extracted_sections": [
+    {
+      "document": "sample1_company_analysis.pdf",
+      "page_number": 1,
+      "section_title": "REVENUE TRENDS",
+      "importance_rank": 5
+    },
+    {
+      "document": "sample2_student_guide.pdf",
+      "page_number": 1,
+      "section_title": "EXAM QUESTIONS",
+      "importance_rank": 4
+    },
+    {
+      "document": "sample2_student_guide.pdf",
+      "page_number": 1,
+      "section_title": "MARKET ANALYSIS SUMMARY",
+      "importance_rank": 3
+    },
+    {
+      "document": "sample1_company_analysis.pdf",
+      "page_number": 1,
+      "section_title": "CONCLUSION",
+      "importance_rank": 2
+    },
+    {
+      "document": "sample1_company_analysis.pdf",
+      "page_number": 1,
+      "section_title": "R&D INVESTMENTS",
+      "importance_rank": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "sample1_company_analysis.pdf",
+      "refined_text": "The company's revenue increased by 12% driven by strong market positioning",
+      "page_number": 1
+    },
+    {
+      "document": "sample1_company_analysis.pdf",
+      "refined_text": "Research and development received increased funding this year",
+      "page_number": 1
+    },
+    {
+      "document": "sample1_company_analysis.pdf",
+      "refined_text": "The company's market share continues to grow",
+      "page_number": 1
+    },
+    {
+      "document": "sample2_student_guide.pdf",
+      "refined_text": "Markets this year were volatile, influencing both investment and R&D strategies",
+      "page_number": 1
+    },
+    {
+      "document": "sample2_student_guide.pdf",
+      "refined_text": "What is market positioning? How does investment affect revenue?",
+      "page_number": 1
+    }
+  ]
+}
